@@ -92,7 +92,7 @@ nav::before {
   color: white;
 }
 .title{
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   line-height: 6rem;
@@ -220,7 +220,7 @@ h2 {
 
 /* Style the Ministries component container */
 .ministries {
-  background-color: #f01010;
+  /* background-color: #f01010; */
   padding: 20px;
   text-align: center;
   padding-top: 3rem;
@@ -366,7 +366,7 @@ h2 {
 
 /* Style the Contact component container */
 .contact {
-  background-color: #FFD700;
+  background-color: #999999;
   padding: 40px;
   text-align: center;
   color: #0a0a48; /* Deep Blue text */
