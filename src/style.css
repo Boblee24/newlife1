@@ -21,6 +21,15 @@ nav {
 .book {
 display: none;
 }
+.number{
+  display: flex;
+  /* padding: .5rem; */
+  gap: .6rem;
+}
+.hello {
+  display: flex;
+  flex-direction: column;
+}
 .navigation {
   display: flex;
   align-items: center;
