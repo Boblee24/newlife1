@@ -17,6 +17,7 @@ nav {
   background-repeat: no-repeat; /* Prevents the image from repeating */
   padding: 1rem;
   position: relative;
+  object-fit: contain;
 }
 .book {
 display: none;
