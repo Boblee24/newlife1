@@ -9,13 +9,13 @@ const Contact = () => {
       </p>
       <div className='contact-details'>
         <p>
-          <strong>Church Address:</strong> Healing Cathedral, NCC Nnanta Street Rumuodara Poret-Harcourt
+          <strong>Church Address:</strong> Healing Cathedral, NCC Nnanta Street Rumuodara Port-Harcourt
         </p>
         <div className='number'>
           <strong>Phone:</strong> <span className='hello'><span className='soji' >08066250651</span><span className='soji' >08032637724</span><span className='soji'>07033441420</span></span>
         </div>
         <p>
-          {/* <strong>Email:</strong> [Email Address] */}
+          <strong>Email:</strong> newlifechristiancenter01@gmail.com
         </p>
       </div>
       {/* <div className='contact-form'> */}

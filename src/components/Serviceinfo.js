@@ -11,19 +11,28 @@ const Serviceinfo = () => {
         <div className="service-item">
           <h3>Sunday Worship</h3>
           <p>
-            <strong>Time:</strong> 9:00 AM and 11:00 AM
+            <strong>Time:</strong> 8:00 AM 
           </p>
           <p>
-            <strong>Location:</strong> [Church Address]
+            <strong>Location:</strong> Healing Cathedral, NCC Nnanta Street Rumuodara Port-Harcourt
           </p>
         </div>
         <div className="service-item">
           <h3>Wednesday Bible Study</h3>
           <p>
-            <strong>Time:</strong> 7:00 PM
+            <strong>Time:</strong> 6:00 PM
           </p>
           <p>
-            <strong>Location:</strong> [Church Address]
+            <strong>Location:</strong> Healing Cathedral, NCC Nnanta Street Rumuodara Port-Harcourt
+          </p>
+        </div>
+        <div className="service-item">
+          <h3>Friday Revival Service</h3>
+          <p>
+            <strong>Time:</strong> 6:00 PM
+          </p>
+          <p>
+            <strong>Location:</strong> Healing Cathedral, NCC Nnanta Street Rumuodara Port-Harcourt
           </p>
         </div>
       </div>

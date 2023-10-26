@@ -10,7 +10,7 @@ body {
   padding: 0 1rem;
 }
 nav {
-  background-image: url('../src/newlife/image8.jpg');
+  background-image: url('../src/newlife/latest2.jpg');
   display: flex;
   height: 100vh;
   background-size: cover; /* Scales the image to cover the entire element */
@@ -45,9 +45,9 @@ nav::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(83, 56, 56, 0.553); /* 50% opaque black */
+  background: rgba(83, 56, 56, 0.5); /* 50% opaque black */
   z-index: 1;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(5px);
 }
 .navigation ul {
   list-style-type: none;
@@ -127,9 +127,11 @@ span {
   color: #c8c8c8cd;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
   text-align: center;
   color: #333333;
+  text-transform: uppercase;
   padding: 1rem;
 }
 /* .section p {
@@ -147,28 +149,31 @@ h2 {
   margin: 0;
 }
 
-/* Style the heading */
+/* Style the heading
 .serviceinfo h2 {
   font-size: 24px;
   color: #333;
   margin-bottom: 1.2rem;
-}
+} */
 
 /* Style the service details container */
 .service-details {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
+  width: 100%; 
+  
   flex-wrap: wrap;
 }
 
 /* Style each service item */
 .service-item {
-  flex: 1;
+  /* flex: 1; */
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
 }
 
 /* Style service item headings */
@@ -236,12 +241,12 @@ h2 {
 }
 
 /* Style the heading */
-.ministries h2 {
+/* .ministries h2 {
   font-size: 2rem;
   color: #333;
   margin-bottom: 20px;
   /* padding: 0 2rem; */
-}
+
 
 /* Style the ministries list container */
 .ministries-list {
@@ -291,11 +296,11 @@ h2 {
 }
 
 /* Style the heading */
-.event h2 {
+/* .event h2 {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
-}
+} */
 
 /* Style the event list container */
 .event-list {
@@ -336,11 +341,11 @@ h2 {
 }
 
 /* Style the heading */
-.sermons h2 {
+/* .sermons h2 {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
-}
+} */
 
 /* Style the sermon list container */
 .sermon-list {
@@ -386,7 +391,6 @@ h2 {
   font-size: 36px;
   font-family: 'cursive', cursive;
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
 
 /* Style the contact description */
